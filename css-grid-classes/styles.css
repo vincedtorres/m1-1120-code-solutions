@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-one-third {
+  width: 50%;
+}
+
+.column-one {
+  width: calc(100% / 4);
+  align-content: flex-start;
+}
+
+.column-characters {
+  width: calc(200% / 3);
+}
+
+.column-bio {
+  width: 100%;
+}
