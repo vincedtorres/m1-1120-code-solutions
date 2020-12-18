@@ -11,12 +11,10 @@ console.log('Mexico is', colors[0] + ', ' + colors[1] + ', ' + 'and ' + colors[2
 console.log('value of colors', colors);
 
 var students;
-students = ['Mac', 'Charlie', 'Dee', 'Dennis'];
+students = ['Mac', 'Charlie', 'Dee', 'Dennis', 'Vincent'];
 var numberOfStudents = students.length;
 console.log('There are ', numberOfStudents + ' students in the class.');
 var lastIndex = numberOfStudents - 1;
-
-lastIndex = students[3];
-var lastStudent = lastIndex;
-console.log('The last student in the array is ', lastStudent);
+var lastStudent = students[lastIndex];
+console.log('The last student in the array is', lastStudent);
 console.log('value of students', students);
